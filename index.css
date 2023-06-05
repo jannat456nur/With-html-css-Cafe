@@ -449,7 +449,7 @@ img {
 .footer-after {
   background-color: #fff;
   height: 10px;
-  width: 42%;
+  width: 45%;
 }
 .footer-header {
   color: #fff;
@@ -459,19 +459,13 @@ img {
   align-items: center;
   width: 100%;
 }
-
-.footer-til {
-  font-size: 1.4rem;
-  margin-bottom: 1rem;
+.footer-title {
+  font-size: 1.2rem;
   color: #fff;
   font-weight: 700;
-  text-align: center;
-}
-.social-media {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  text-align: start;
+
+  padding: 10px 34px;
 }
 
 footer {
@@ -506,6 +500,12 @@ footer {
 .hr-div {
   width: 99%;
   padding: 15px 20px;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 .footer-hr {
   width: 100%;
