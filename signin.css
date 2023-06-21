@@ -1,0 +1,130 @@
+body {
+  background-color: #f3f4f6;
+  background-image: url(./img/BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+  width: 450px;
+  padding: 50px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5),
+    -20px -20px 50px rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  color: white;
+  font-size: 18px;
+}
+
+input[type='text'],
+input[type='password'] {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  transition: 0.2s;
+}
+
+input[type='email']:focus,
+input[type='password']:focus {
+  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2),
+    inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type='submit'] {
+  background-color: #a0583c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  width: 50%;
+  margin: auto;
+}
+
+input[type='submit']:hover {
+  background-color: #a0583c;
+}
+.hr {
+  border: 2px solid #fff;
+  margin-bottom: 10px;
+}
+.forgetp {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+}
+.dha-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dha {
+  color: #fff;
+}
+.dha a {
+  color: #fff;
+  text-decoration: none;
+}
+/* CSS for mobile screens */
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: none;
+  }
+
+  .container {
+    width: 100%;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  label,
+  input[type='text'],
+  input[type='password'] {
+    font-size: 16px;
+  }
+
+  input[type='submit'] {
+    height: 40px;
+    font-size: 18px;
+    width: 70%;
+  }
+
+  .dha-div {
+    display: none;
+  }
+}
