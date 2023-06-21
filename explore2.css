@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
-  /* background-color: red; */
 }
 
 /* nav section */
@@ -33,7 +31,6 @@
   font-weight: 700;
   color: #fff;
 }
-
 .links ul {
   display: flex;
   justify-content: space-between;
@@ -51,7 +48,6 @@
 .links ul li {
   padding: 0 1rem;
 }
-
 .button button {
   background: #a0583c;
   padding: 10px;
@@ -69,8 +65,6 @@
   align-items: center;
   height: 60vh;
   width: 100%;
-
-  /* background-color: red */
 }
 
 .hero-title {
@@ -167,7 +161,6 @@
 .rp {
   height: 200px;
   width: 90%;
-  /* border: #a0583c 1px solid; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -183,10 +176,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding-left: 100px; */
   padding-top: 20px;
   width: 700px;
-  /* background-color: #a0583c; */
 }
 .part-1-img {
   width: 100px;
@@ -208,31 +199,32 @@
 }
 .pilih {
   font-size: 1.5rem;
-  padding-left: 80px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  width: 100%;
+  max-width: 1220px;
+  margin: auto;
 }
 .bank {
   font-size: 2rem;
-  padding-left: 80px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 700;
+  width: 100%;
+  max-width: 1220px;
+  margin: auto;
 }
 .bank-transfer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-left: 80px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  max-width: 1300px;
+  margin: auto;
 }
 .banks {
-  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding-left: 35px;
 }
 .icon {
   width: 50px;
@@ -244,11 +236,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  padding-left: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   height: 300px;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
 }
 .icons {
   margin-right: 20px;
@@ -257,18 +248,87 @@
   align-items: center;
 }
 
-/* responsive styles */
-@media screen and (max-width: 768px) {
+/* Styles for mobile screens */
+@media (max-width: 768px) {
   .container {
-    height: 100%;
+    height: auto;
   }
-  /* .rp {
-    margin-top: 60px;
-    height: 100%;
-    margin-bottom: 80px;
+
+  .container-titile {
+    font-size: 2rem;
+  }
+
+  .container-text {
+    font-size: 1.2rem;
+  }
+
+  .rp {
+    height: auto;
+    margin-top: -5px;
+    margin-bottom: 20px;
     flex-direction: column;
-    height: 100%;
-  } */
+    align-items: flex-start;
+    padding: 15px;
+  }
+
+  .part-1 {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  .part-1-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .total {
+    font-size: 1.2rem;
+  }
+
+  .rp45 {
+    font-size: 1.8rem;
+  }
+
+  .choose {
+    font-size: 1.2rem;
+  }
+
+  .time {
+    font-size: 1.2rem;
+  }
+
+  .pilih {
+    font-size: 1.2rem;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .bank {
+    font-size: 1.8rem;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .bank-transfer {
+    padding-left: 5px;
+  }
+
+  .wallets {
+    margin-top: 0px;
+
+    height: 100px;
+  }
+  .icons {
+    margin-right: 10px;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
 }
 
 /* end of rp */

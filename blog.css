@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
-  /* background-color: red; */
 }
 
 /* nav section */
@@ -69,8 +67,6 @@
   align-items: center;
   height: 60vh;
   width: 100%;
-
-  /* background-color: red */
 }
 
 .hero-title {
@@ -173,7 +169,6 @@
   align-items: center;
 }
 .textfield-end {
-  /* background-color: blue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,7 +339,6 @@ footer {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* margin-left: -125px; */
   width: 100%;
 }
 .social-media img {

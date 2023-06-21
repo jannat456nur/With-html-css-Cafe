@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
-  /* background-color: red; */
 }
 
 /* nav section */
@@ -395,6 +393,9 @@ input:focus {
     grid-template-columns: repeat(1, 1fr);
     padding: 0px 20px;
   }
+  .blog-single-card {
+    margin: 0 auto;
+  }
 }
 
 /* brands */
@@ -504,12 +505,10 @@ footer {
   text-align: center;
 }
 
-
 .social-media {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* margin-left: -125px; */
   width: 100%;
 }
 .social-media img {
